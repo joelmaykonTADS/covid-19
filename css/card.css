@@ -25,7 +25,7 @@
 
 .image-card {
     max-width:100%;
-    max-height:250px;
+    max-height:210px;
     width: auto;
     height: auto;
     vertical-align: middle;
@@ -41,7 +41,7 @@
     display: block;
     width: 100%;
     cursor: pointer;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(214, 207, 207, 0.2);
     background: transparent;
 }
 
@@ -88,7 +88,7 @@
 
 .card-content {
     padding: 1rem;
-    background: linear-gradient(to bottom left, #5c8f84 40%, #9fc5bd 100%);
+    background: linear-gradient(to bottom left, rgb(99, 10, 10) 40%, #f04f4f 100%);
     max-height: 100%;
 }
 

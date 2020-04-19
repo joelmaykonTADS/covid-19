@@ -50,7 +50,7 @@ i {
     display: block;
     position: relative;
     transition: all 0.3s ease;
-    color: #69b3a3;
+    color: #0773df;
     font-family: "Great Vibes",
     cursive;
     font-weight: normal;
@@ -100,7 +100,7 @@ li {
     padding-left: 60px;
 }
 .nav>.nav-header>.nav-title-text {
-    color: #69b3a3;
+    color: #0773df;
     margin-bottom: 40px;
     font-family: "Great Vibes",
     cursive;
@@ -122,7 +122,7 @@ li {
     display: inline-block;
     padding: 13px 10px 13px 10px;
     text-decoration: none;
-    color: #69b3a3;
+    color: #0773df;
     font-family: "Great Vibes",
     cursive;
     line-height: 30px;
@@ -208,13 +208,13 @@ li {
 }
 
 .sobre {
-    color: #994662;
+    color: #a57384;
     font-family: "Great Vibes", cursive;
     font-size: 35px;
-    line-height: 100px;
+    line-height: 40px;
     font-weight: normal;
     text-align: center;
-    text-shadow: 0 1px 1px #fff;
+    text-shadow: 0 1px 1px rgb(233, 221, 221);
 }
 
 
@@ -222,9 +222,14 @@ li {
     color: #e7d285;
     font-size: 19px;
     font-family: "Libre Baskerville", cursive;
-    line-height: 45px;
+    line-height: 25px;
     text-align: center;
     padding-top: 5px;
+}
+.linkedin {
+    color: #e7d285;
+    font-size: 16px;
+    font-family: "Libre Baskerville", cursive;
 }
 
 
@@ -257,3 +262,88 @@ li {
     text-align: center;
     color: #ffffff;
 }
+
+a:link{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    }
+    
+    a:visited{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    }
+    
+    a:hover{
+    text-decoration:none;
+    color:rgb(37, 27, 29);
+    }
+    
+    a:active{
+    text-decoration:none;
+    color:green;
+    }
+    .container-form {
+        width: 50%;
+        margin: 0 auto;
+      }
+    .form-contact {
+        width: 100%;
+        font-family: "Arial", Times, serif;
+      }
+      
+      .form-contact-input {
+        width: 100%;
+        color: #292929;
+        font-size: 18px;
+        background-color: #E9E9E9;
+        border: 1px solid #E9E9E9;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        height: 40px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        text-indent: 20px;
+      }
+      
+      .form-contact-textarea {
+        width: 100%;
+        color: #292929;
+        font-size: 18px;
+        background-color: #E9E9E9;
+        border: 1px solid #E9E9E9;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        height: 200px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        text-indent: 20px;
+        padding-top: 16px;
+        padding-left: 0;
+        padding-right: 0;
+        font-family: "Arial", Times, serif;
+      }
+      
+      .form-contact-button {
+        width: 100%;
+        font-size: 18px;
+        border-radius: 4px;
+        color: #fff;
+        height: 40px;
+        opacity: .8;
+        margin-bottom: 20px;
+        cursor: pointer;
+        background: #B22222;
+        display: block;
+        border: none;
+        border-bottom: 1px solid #500707;
+        border-right: 1px solid #500707;
+        transition: 1s;
+      }
+      
+      .form-contact-button:hover {
+        opacity: 1;
+      }
