@@ -134,3 +134,11 @@
 #seta:not(:checked)~#nomeDoDiv {
     display: block;
 }
+
+.icone-seta{
+    font-size: 40px;
+}
+.icone-seta:hover{
+    animation: ani-ring 2s ease infinite;
+
+}

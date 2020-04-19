@@ -251,6 +251,19 @@ li {
     overflow: hidden;
     position: relative;
 }
+.imagem-saiba img {
+    position: absolute;
+    width: 100%;
+}
+.imagem-saiba {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+}
 .imagem-sobre img {
     position: absolute;
     width: 100%;
