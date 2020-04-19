@@ -211,7 +211,7 @@ li {
     color: #994662;
     font-family: "Great Vibes", cursive;
     font-size: 35px;
-    line-height: 160px;
+    line-height: 100px;
     font-weight: normal;
     text-align: center;
     text-shadow: 0 1px 1px #fff;
@@ -249,4 +249,11 @@ li {
 .imagem-sobre img {
     position: absolute;
     width: 100%;
+}
+
+.made-by {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    color: #ffffff;
 }
