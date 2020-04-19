@@ -211,7 +211,7 @@ li {
     color: #994662;
     font-family: "Great Vibes", cursive;
     font-size: 35px;
-    line-height: 100px;
+    line-height: 60px;
     font-weight: normal;
     text-align: center;
     text-shadow: 0 1px 1px #fff;
@@ -222,7 +222,7 @@ li {
     color: #e7d285;
     font-size: 19px;
     font-family: "Libre Baskerville", cursive;
-    line-height: 45px;
+    line-height: 25px;
     text-align: center;
     padding-top: 5px;
 }
